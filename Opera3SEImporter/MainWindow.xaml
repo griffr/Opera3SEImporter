@@ -14,7 +14,7 @@
         <Label x:Name="lblFileCount" Content="File Count: 0" HorizontalAlignment="Left" Margin="48,273,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblFileCurrent" Content="Current File: 0" HorizontalAlignment="Left" Margin="48,304,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblErrors" Content="Errors: " HorizontalAlignment="Left" Margin="48,335,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lblCompleted" Content="" HorizontalAlignment="Left" Margin="50,309,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblCompleted" Content="" HorizontalAlignment="Left" Margin="50,366,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="TxtHeaderMask" HorizontalAlignment="Left" Margin="138,188,0,0" Text="ihead" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="TxtDetailsMask" HorizontalAlignment="Left" Margin="138,219,0,0" Text="itran" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="File ID" HorizontalAlignment="Left" Margin="50,157,0,0" VerticalAlignment="Top"/>
