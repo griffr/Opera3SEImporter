@@ -15,3 +15,7 @@ sop_abc_ihead.csv</br>
 sop_abc_itran.csv</br>
 animportsopihead.csv</br>
 animportsopitran.csv</br>
+
+
+File ID in iterface will be the 'sop' part.</br>
+Header Mask and Details Mask with be the ihead and itran parts.</br>
