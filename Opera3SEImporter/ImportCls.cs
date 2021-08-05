@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -30,7 +26,6 @@ namespace Opera3SEImporter
             try
             {
                 string[] fileHolder = Directory.GetFiles(fileIncPath, "*.*", SearchOption.TopDirectoryOnly);
-                //count = fileHolder.Count();
                 foreach (var file in fileHolder)
                 {
                     if (Path.GetExtension(file).ToUpper() == ".CSV" &&
@@ -127,7 +122,6 @@ namespace Opera3SEImporter
         {
             string returnFile = Path.GetFileNameWithoutExtension(file).ToUpper();
             string[] fileHolder = Directory.GetFiles(path, "*.*", SearchOption.TopDirectoryOnly);
-            //string returnFile = "";
             foreach (string fileList in fileHolder)
             {
                 string newFile = returnFile.ToUpper().Replace(headerMask.ToUpper(), detailsMask.ToUpper()) + ".CSV";
