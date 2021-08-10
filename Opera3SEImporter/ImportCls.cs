@@ -42,7 +42,7 @@ namespace Opera3SEImporter
                         Path.GetFileNameWithoutExtension(file).ToUpper().Contains(fileMask.ToUpper()) && 
                         Path.GetFileNameWithoutExtension(file).ToUpper().Contains(headerMask.ToUpper()))
                     {
-                        Thread.Sleep(200);
+                        Thread.Sleep(500);
                         fileNo++;
                         string pairedFile = GetPairedFile(fileIncPath, file, headerMask, detailsMask);
                         string docReturned = "";
