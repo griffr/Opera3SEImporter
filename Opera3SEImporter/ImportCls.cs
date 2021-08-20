@@ -80,7 +80,7 @@ namespace Opera3SEImporter
                         {
                             File.WriteAllText(logFile, "exImport catch :  " + exImport.Message);
                             errors.Report(errCount++);
-                            clsOperaImportServerEdition = new operaimport_serveredition.clsOperaImportServerEdition();
+                           // clsOperaImportServerEdition = new operaimport_serveredition.clsOperaImportServerEdition();
                             vLblnSuccess = false;
                         }
                         if (vLblnSuccess)
